@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rate Buydowns Explained | BuyDownPower.com</title>
+  <link rel="canonical" href="https://buydownpower.com/buydowns.html" />
+  <meta name="description" content="Learn how 2-1 buydowns, 1-0 buydowns, and permanent discount points work — and how to use them to lower your mortgage rate in Oregon." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --navy: #0D1B2A; --navy-card: #0F2030; --gold: #C8913A; --gold-light: #dba84f; --gold-dim: rgba(200,145,58,0.18); --gold-border: rgba(200,145,58,0.28); --text: #e2e8f0; --text-muted: #94a3b8; --text-dim: #64748b; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--navy); background-image: radial-gradient(ellipse at 65% 0%, rgba(200,145,58,0.06) 0%, transparent 55%), radial-gradient(ellipse at 10% 85%, rgba(200,145,58,0.04) 0%, transparent 50%); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 16px; line-height: 1.6; min-height: 100vh; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; border-bottom: 1px solid var(--gold-border); background: rgba(13,27,42,0.96); position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(12px); }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; color: #fff; text-decoration: none; letter-spacing: 0.02em; } .logo span { color: var(--gold); }
+    nav { display: flex; align-items: center; gap: 28px; }
+    nav a { font-size: 13px; font-weight: 500; color: var(--text-muted); text-decoration: none; letter-spacing: 0.04em; transition: color 0.2s; }
+    nav a:hover, nav a.active { color: #fff; }
+    .nav-cta { padding: 9px 22px; background: var(--gold); color: var(--navy) !important; border-radius: 6px; font-weight: 700 !important; letter-spacing: 0.06em !important; transition: background 0.2s !important; }
+    .nav-cta:hover { background: var(--gold-light) !important; color: var(--navy) !important; }
+    .breadcrumb { padding: 92px 48px 0; max-width: 1080px; margin: 0 auto; }
+    .breadcrumb-inner { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-dim); padding-top: 28px; }
+    .breadcrumb-inner a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; } .breadcrumb-inner a:hover { color: var(--gold); }
+    .breadcrumb-inner span { color: var(--text-muted); }
+    .page-hero { max-width: 1080px; margin: 0 auto; padding: 40px 48px 48px; }
+    .page-hero-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+    .page-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(36px, 5vw, 60px); font-weight: 700; color: #fff; line-height: 1.08; margin-bottom: 20px; }
+    .page-hero-lead { font-size: 18px; color: var(--text-muted); line-height: 1.7; max-width: 640px; }
+    .funnel-cta-wrap { max-width: 1080px; margin: 0 auto 56px; padding: 0 48px; }
+    .funnel-cta-box { background: var(--gold-dim); border: 1px solid var(--gold-border); border-radius: 14px; padding: 28px 36px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+    .funnel-cta-box p { font-size: 16px; color: var(--text); font-weight: 500; line-height: 1.5; }
+    .funnel-cta-box p strong { color: #fff; }
+    .btn-primary { display: inline-block; padding: 13px 28px; background: var(--gold); color: var(--navy); border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0.06em; text-decoration: none; white-space: nowrap; transition: background 0.2s, transform 0.15s; }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+    .btn-outline { display: inline-block; padding: 12px 24px; border: 1px solid var(--gold-border); color: var(--gold); border-radius: 8px; font-size: 13px; font-weight: 600; text-decoration: none; transition: border-color 0.2s, color 0.2s; white-space: nowrap; }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold-light); }
+    .page-body { max-width: 1080px; margin: 0 auto; padding: 0 48px 80px; }
+    .section-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px, 3.5vw, 42px); font-weight: 700; color: #fff; margin-bottom: 12px; line-height: 1.15; }
+    .section-sub { font-size: 16px; color: var(--text-muted); margin-bottom: 36px; line-height: 1.7; max-width: 680px; }
+    .buydown-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 64px; }
+    .buydown-card { background: var(--navy-card); border: 1px solid var(--gold-border); border-radius: 16px; padding: 32px 28px; display: flex; flex-direction: column; }
+    .buydown-card.featured { border-color: var(--gold); background: linear-gradient(135deg, rgba(200,145,58,0.08) 0%, var(--navy-card) 100%); }
+    .buydown-badge { display: inline-block; padding: 4px 12px; background: var(--gold); color: var(--navy); border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 16px; align-self: flex-start; }
+    .buydown-name { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .buydown-tagline { font-size: 13px; color: var(--gold); font-weight: 600; letter-spacing: 0.04em; margin-bottom: 20px; }
+    .buydown-schedule { background: rgba(255,255,255,0.04); border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+    .buydown-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px; }
+    .buydown-row:last-child { border-bottom: none; }
+    .buydown-row .yr { color: var(--text-dim); }
+    .buydown-row .rate { font-weight: 700; color: #fff; }
+    .buydown-row .rate.lower { color: var(--gold); }
+    .buydown-desc { font-size: 13px; color: var(--text-muted); line-height: 1.65; flex: 1; }
+    .scenario-section { margin-bottom: 64px; }
+    .scenario-box { background: var(--navy-card); border: 1px solid var(--gold-border); border-radius: 16px; padding: 36px 32px; }
+    .scenario-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .scenario-box .scenario-note { font-size: 13px; color: var(--text-dim); margin-bottom: 28px; }
+    .scenario-table { width: 100%; border-collapse: collapse; }
+    .scenario-table th { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim); text-align: left; padding: 0 0 12px; border-bottom: 1px solid var(--gold-border); }
+    .scenario-table td { padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 14px; color: var(--text-muted); vertical-align: top; }
+    .scenario-table td:first-child { color: #fff; font-weight: 600; }
+    .scenario-table td .highlight { color: var(--gold); font-weight: 700; }
+    .scenario-table tr:last-child td { border-bottom: none; }
+    .breakeven-section { margin-bottom: 64px; }
+    .breakeven-card { background: var(--navy-card); border: 1px solid var(--gold-border); border-radius: 16px; padding: 36px 32px; }
+    .breakeven-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 12px; }
+    .breakeven-card p { font-size: 15px; color: var(--text-muted); line-height: 1.7; margin-bottom: 20px; }
+    .breakeven-formula { background: rgba(200,145,58,0.08); border: 1px solid var(--gold-border); border-radius: 10px; padding: 20px 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: #fff; margin-bottom: 20px; }
+    .breakeven-formula .op { color: var(--gold); margin: 0 4px; }
+    .breakeven-example { font-size: 13px; color: var(--text-dim); line-height: 1.65; }
+    .faq-section { margin-bottom: 64px; }
+    .faq-list { display: flex; flex-direction: column; gap: 2px; }
+    .faq-item { background: var(--navy-card); border: 1px solid var(--gold-border); border-radius: 10px; overflow: hidden; }
+    .faq-q { width: 100%; background: none; border: none; padding: 20px 24px; text-align: left; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; color: #fff; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .faq-q:hover { color: var(--gold); }
+    .faq-icon { font-size: 20px; color: var(--gold); flex-shrink: 0; transition: transform 0.2s; line-height: 1; }
+    .faq-a { display: none; padding: 0 24px 20px; font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+    .faq-item.open .faq-a { display: block; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .crosslinks { margin-bottom: 64px; }
+    .crosslink-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .crosslink-card { background: var(--navy-card); border: 1px solid var(--gold-border); border-radius: 12px; padding: 24px; text-decoration: none; transition: border-color 0.2s, transform 0.15s; display: block; }
+    .crosslink-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .crosslink-label { font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+    .crosslink-title { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 6px; line-height: 1.2; }
+    .crosslink-desc { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+    .bottom-cta { background: var(--gold-dim); border: 1px solid var(--gold-border); border-radius: 16px; padding: 48px 40px; text-align: center; }
+    .bottom-cta h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(26px, 3.5vw, 40px); font-weight: 700; color: #fff; margin-bottom: 12px; }
+    .bottom-cta p { font-size: 16px; color: var(--text-muted); margin-bottom: 28px; line-height: 1.6; }
+    footer { border-top: 1px solid var(--gold-border); padding: 28px 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    .footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 700; color: #fff; } .footer-brand span { color: var(--gold); }
+    .footer-legal { font-size: 12px; color: var(--text-dim); text-align: right; line-height: 1.6; }
+    @media (max-width: 900px) { .buydown-grid { grid-template-columns: 1fr; } .crosslink-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 680px) { header { padding: 18px 20px; flex-direction: column; gap: 10px; } nav { gap: 16px; flex-wrap: wrap; justify-content: center; } .breadcrumb, .page-hero, .funnel-cta-wrap, .page-body { padding-left: 20px; padding-right: 20px; } .funnel-cta-box { flex-direction: column; text-align: center; } .bottom-cta { padding: 36px 24px; } footer { padding: 24px; flex-direction: column; text-align: center; } .footer-legal { text-align: center; } .scenario-table th, .scenario-table td { font-size: 13px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/" class="logo">BuyDown<span>Power</span></a>
+    <nav>
+      <a href="/va-loans.html">VA Loans</a>
+      <a href="/fha-loans.html">FHA Loans</a>
+      <a href="/conventional-loans.html">Conventional</a>
+      <a href="/buydowns.html" class="active">Rate Buydowns</a>
+      <a href="/get-started.html" class="nav-cta">Get Started</a>
+    </nav>
+  </header>
+
+  <div class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a>
+      <span>›</span>
+      <span>Rate Buydowns</span>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <p class="page-hero-eyebrow">Rate Buydowns</p>
+    <h1>Lower Your Rate.<br />Control Your Payment.</h1>
+    <p class="page-hero-lead">A rate buydown lets you — or your seller — pay upfront to reduce your mortgage rate, either temporarily or permanently. It's one of the most powerful tools in a buyer's negotiation arsenal.</p>
+  </section>
+
+  <div class="funnel-cta-wrap">
+    <div class="funnel-cta-box">
+      <p><strong>Not sure which buydown makes sense for you?</strong> Take our 6-step quiz and get a personalized recommendation.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="/get-started.html" class="btn-primary">Get My Recommendation →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-body">
+
+    <section style="margin-bottom: 56px;">
+      <p class="page-hero-eyebrow" style="margin-bottom:10px;">The Three Structures</p>
+      <h2 class="section-title">Which buydown is right for you?</h2>
+      <p class="section-sub">Each buydown structure serves a different purpose. The right one depends on how long you plan to stay, who's paying, and what your financial goals are.</p>
+      <div class="buydown-grid">
+        <div class="buydown-card featured">
+          <span class="buydown-badge">Most Popular</span>
+          <div class="buydown-name">2-1 Buydown</div>
+          <div class="buydown-tagline">Two years of rate relief</div>
+          <div class="buydown-schedule">
+            <div class="buydown-row"><span class="yr">Year 1</span><span class="rate lower">Note Rate − 2%</span></div>
+            <div class="buydown-row"><span class="yr">Year 2</span><span class="rate lower">Note Rate − 1%</span></div>
+            <div class="buydown-row"><span class="yr">Year 3+</span><span class="rate">Full Note Rate</span></div>
+          </div>
+          <p class="buydown-desc">The 2-1 buydown is the most seller-negotiated option. The rate steps up over two years, giving buyers time to settle in and grow income before reaching their full payment. Funds are held in an escrow account and refunded if you sell or refinance before the term ends.</p>
+        </div>
+        <div class="buydown-card">
+          <div class="buydown-name">1-0 Buydown</div>
+          <div class="buydown-tagline">One year of rate savings</div>
+          <div class="buydown-schedule">
+            <div class="buydown-row"><span class="yr">Year 1</span><span class="rate lower">Note Rate − 1%</span></div>
+            <div class="buydown-row"><span class="yr">Year 2+</span><span class="rate">Full Note Rate</span></div>
+          </div>
+          <p class="buydown-desc">A 1-0 buydown costs less than a 2-1 and still gives buyers meaningful first-year savings. It's a good fit when seller concessions are limited or when the buyer expects rates to drop within a year, making a refinance likely.</p>
+        </div>
+        <div class="buydown-card">
+          <div class="buydown-name">Permanent Buydown</div>
+          <div class="buydown-tagline">Discount points, forever</div>
+          <div class="buydown-schedule">
+            <div class="buydown-row"><span class="yr">All Years</span><span class="rate lower">Reduced Rate (permanent)</span></div>
+            <div class="buydown-row"><span class="yr">Each Point</span><span class="rate">~0.125–0.25% reduction</span></div>
+            <div class="buydown-row"><span class="yr">Cost</span><span class="rate">1% of loan amount</span></div>
+          </div>
+          <p class="buydown-desc">Paying discount points permanently lowers your interest rate for the life of the loan. Unlike temporary buydowns, points make sense when you plan to stay long-term and can calculate a break-even point that justifies the upfront cost.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scenario-section">
+      <p class="page-hero-eyebrow" style="margin-bottom:10px;">Example</p>
+      <h2 class="section-title">2-1 Buydown in action</h2>
+      <p class="section-sub">Here's how a 2-1 buydown affects monthly payment and who funds the difference.</p>
+      <div class="scenario-box">
+        <h3>$500,000 purchase · 6.75% note rate · 30-year conventional</h3>
+        <p class="scenario-note">Down payment: 20% ($100,000) · Loan amount: $400,000 · Buydown funded by seller concession</p>
+        <table class="scenario-table">
+          <thead>
+            <tr>
+              <th>Period</th>
+              <th>Effective Rate</th>
+              <th>Monthly P&amp;I</th>
+              <th>Monthly Savings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Year 1</td>
+              <td>4.75% <span class="highlight">(−2%)</span></td>
+              <td>$2,086</td>
+              <td><span class="highlight">$521/mo saved</span></td>
+            </tr>
+            <tr>
+              <td>Year 2</td>
+              <td>5.75% <span class="highlight">(−1%)</span></td>
+              <td>$2,334</td>
+              <td><span class="highlight">$273/mo saved</span></td>
+            </tr>
+            <tr>
+              <td>Year 3+</td>
+              <td>6.75% (full)</td>
+              <td>$2,607</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>Total buydown cost</td>
+              <td colspan="3"><span class="highlight">~$9,132</span> (seller-funded escrow · refundable if you refi/sell early)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="breakeven-section">
+      <p class="page-hero-eyebrow" style="margin-bottom:10px;">Permanent Points</p>
+      <h2 class="section-title">How to calculate your break-even</h2>
+      <p class="section-sub">Paying discount points only makes sense if you stay in the home long enough to recoup the upfront cost. This formula tells you exactly when you break even.</p>
+      <div class="breakeven-card">
+        <h3>The Break-Even Formula</h3>
+        <p>Divide the cost of your points by the monthly savings from the lower rate. The result is the number of months until you've paid yourself back.</p>
+        <div class="breakeven-formula">
+          <span>Points Cost</span>
+          <span class="op">÷</span>
+          <span>Monthly Savings</span>
+          <span class="op">=</span>
+          <span>Break-Even (months)</span>
+        </div>
+        <p class="breakeven-example"><strong>Example:</strong> 1 point on a $400,000 loan = $4,000 upfront cost. If the lower rate saves $100/month, break-even is 40 months (3.3 years). If you plan to stay longer than that — or refinance into a lower rate before then — you can evaluate accordingly. If rates drop and you refinance before month 40, you don't fully recoup the cost of the points.</p>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <p class="page-hero-eyebrow" style="margin-bottom:10px;">Common Questions</p>
+      <h2 class="section-title">Buydown FAQ</h2>
+      <p class="section-sub">Everything you need to know before using a buydown in your purchase negotiation.</p>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)"><span>Who pays for the buydown — buyer or seller?</span><span class="faq-icon">+</span></button>
+          <div class="faq-a">Temporary buydowns (2-1 and 1-0) are typically funded by the seller, builder, or lender as a concession. In a negotiation, you can ask the seller to cover the buydown cost instead of taking a lower purchase price — in many cases, the math favors the seller doing the buydown. Permanent discount points can be paid by either party, though buyers more often pay for them directly.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)"><span>What happens to unused buydown funds if I sell or refinance?</span><span class="faq-icon">+</span></button>
+          <div class="faq-a">Funds from a temporary buydown are held in a dedicated escrow account. If you sell or refinance before the buydown period ends, the remaining unused funds are applied to your loan payoff or returned — they don't simply disappear. This makes temporary buydowns lower risk than paying permanent points.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)"><span>Do all loan types allow rate buydowns?</span><span class="faq-icon">+</span></button>
+          <div class="faq-a">Conventional, VA, and FHA loans all allow temporary buydowns (2-1 and 1-0). USDA loans generally allow them as well. Permanent discount points are also accepted across all major loan types. Buydowns must be structured properly to meet lender and investor guidelines — we handle that for you.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)"><span>Does a buydown affect my qualifying rate?</span><span class="faq-icon">+</span></button>
+          <div class="faq-a">For conventional loans, lenders typically qualify you at the note rate (the rate after the buydown period ends), not the reduced Year 1 rate. This means a buydown doesn't make you qualify for a larger loan — it's a cash-flow tool, not a qualifying tool. However, programs vary, so we'll confirm this based on your specific loan type.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)"><span>When does a 2-1 buydown make more sense than a price reduction?</span><span class="faq-icon">+</span></button>
+          <div class="faq-a">A seller concession in the form of a buydown often delivers more value than an equivalent price reduction. For example, $9,000 off the purchase price on a $500k home reduces your monthly payment by roughly $50. That same $9,000 used as a 2-1 buydown can save $500/month in Year 1. If you expect rates to drop and refinance within a few years, a buydown can be a smarter use of seller funds than a permanent price cut.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)"><span>Can I combine a buydown with an FHA or VA loan?</span><span class="faq-icon">+</span></button>
+          <div class="faq-a">Yes. FHA and VA loans both support temporary buydowns when funded by the seller or lender as a concession. For VA loans, the buydown structure must be reviewed against VA guidelines, but 2-1 buydowns are a well-established tool. FHA loans have MIP regardless of buydown, but the reduced rate in Years 1 and 2 still lowers total cash outflow meaningfully.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="crosslinks" style="margin-bottom: 56px;">
+      <p class="page-hero-eyebrow" style="margin-bottom:10px;">Also Consider</p>
+      <h2 class="section-title">Combine with the right loan type</h2>
+      <p class="section-sub">Buydowns work on top of your loan program. Choose the right foundation first.</p>
+      <div class="crosslink-grid">
+        <a href="/va-loans.html" class="crosslink-card">
+          <div class="crosslink-label">Veteran Benefit</div>
+          <div class="crosslink-title">VA Loan + Buydown</div>
+          <div class="crosslink-desc">$0 down, no PMI, and a 2-1 buydown funded by the seller. One of the most powerful buyer combinations available.</div>
+        </a>
+        <a href="/fha-loans.html" class="crosslink-card">
+          <div class="crosslink-label">Low Down Payment</div>
+          <div class="crosslink-title">FHA Loan + Buydown</div>
+          <div class="crosslink-desc">3.5% down with a seller-funded buydown lowers your first two years of payment while you build equity and settle in.</div>
+        </a>
+        <a href="/conventional-loans.html" class="crosslink-card">
+          <div class="crosslink-label">Maximum Flexibility</div>
+          <div class="crosslink-title">Conventional + Buydown</div>
+          <div class="crosslink-desc">Conventional loans pair cleanly with both temporary buydowns and permanent points — ideal for buyers with strong credit.</div>
+        </a>
+      </div>
+    </section>
+
+    <div class="bottom-cta">
+      <h2>Ready to run your numbers?</h2>
+      <p>Tell us about your situation and I'll show you exactly how a buydown could reduce your first-year payment — and what it costs to make it happen.</p>
+      <a href="/get-started.html" class="btn-primary" style="font-size: 15px; padding: 15px 34px;">Get My Free Buydown Analysis →</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-brand">BuyDown<span>Power</span></div>
+    <div class="footer-legal">
+      Licensed Mortgage Loan Originator &middot; Oregon &middot; NMLS #1839449<br />
+      Mortgage Solutions Financial &middot; 900 Main Street, Suite 106, Oregon City, OR 97045 &middot; NMLS #61602<br />
+      <span style="font-size:10px;">Equal Housing Lender &copy;2026 Mortgage Solutions of Colorado, LLC., dba Mortgage Solutions Financial NMLS #61602. <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener" style="color:var(--text-dim);text-decoration:underline;">NMLSConsumerAccess.org</a> &middot; Not a commitment to lend.</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleFaq(btn) {
+      const item = btn.closest('.faq-item')
+      const isOpen = item.classList.contains('open')
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'))
+      if (!isOpen) item.classList.add('open')
+    }
+  </script>
+</body>
+</html>
