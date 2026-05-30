@@ -100,7 +100,7 @@ export default async function handler(req, res) {
 
   try {
     await resend.emails.send({
-      from: 'Buy Down Power <leads@buydownpower.com>',
+      from: 'Phuong Ha Loans <leads@phuongha.loans>',
       to: 'phuonghaloans@gmail.com',
       replyTo: email,
       subject: `🏠 New Lead: ${firstName} ${lastName || ''} — ${loanType} — buydownpower.com`,
